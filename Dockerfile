@@ -110,7 +110,7 @@ RUN cd $HOME && \
 
 ## Сборка libsodium.
 ENV SODIUM_URL https://github.com/jedisct1/libsodium.git
-ENV SODIUM_VER 1.0.16
+ENV SODIUM_VER 1.0.19
 ENV SODIUM_REPO $HOME/libsodium
 ENV SODIUM_PREFIX built-libsodium
 
@@ -131,7 +131,7 @@ RUN cd $HOME && \
 
 ## Сборка libzmq.
 ENV LIBZMQ_URL https://github.com/zeromq/libzmq.git
-ENV LIBZMQ_VER 4.2.5
+ENV LIBZMQ_VER 4.3.5
 ENV LIBZMQ_REPO $HOME/libzmq
 ENV LIBZMQ_PREFIX built-libzmq
 ENV sodium_LIBS built-libsodium
