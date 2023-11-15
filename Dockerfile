@@ -131,7 +131,8 @@ RUN cd $HOME && \
 
 ## Сборка libzmq.
 ENV LIBZMQ_URL https://github.com/zeromq/libzmq.git
-ENV LIBZMQ_VER 4.3.5
+ENV LIBZMQ_VER 4.3.1
+## Версии новее приводят к ошибке при сборке
 ENV LIBZMQ_REPO $HOME/libzmq
 ENV LIBZMQ_PREFIX built-libzmq
 ENV sodium_LIBS built-libsodium
