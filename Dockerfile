@@ -37,7 +37,7 @@ ENV LANG ru_RU.UTF-8
 ## Установка пакетов для сборки.
 RUN apt-get update && \
     apt-get upgrade -y && \
-    apt-get install -y --no-install-recommends \
+    apt-get install -V -y --no-install-recommends \
         bzip2 xz-utils \
         ca-certificates openssl \
         python3-minimal libpython3-stdlib git \
