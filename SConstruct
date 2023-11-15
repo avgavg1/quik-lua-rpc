@@ -74,7 +74,7 @@ inst_path = '{}/{}'.format(os.getcwd(), inst_dir)
 #    '/usr/x86_64-w64-mingw32/bin/libstdc++-6.dll',
 #]
 mingw_libs = [
-    '/usr/lib/gcc/x86_64-w64-mingw32/10-win32/libgcc_s_seh-1.dll',
+    '/usr/lib/gcc/x86_64-w64-mingw32/12.0-win32/libgcc_s_seh-1.dll',
     '/usr/lib/gcc/x86_64-w64-mingw32/10-win32/libstdc++-6.dll',
 ]
 
