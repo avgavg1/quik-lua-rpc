@@ -80,7 +80,7 @@ mingw_libs = [
 
 env.Install(inst_path,
             [libzmq_dll, lua_dll, mingw_libs,
-             f'{sodium_built}/bin/libsodium-23.dll'])
+             f'{sodium_built}/bin/libsodium-26.dll'])
 
 env.InstallAs([
     f'{inst_path}/lzmq.dll',
